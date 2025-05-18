@@ -1,7 +1,8 @@
 # Backend de la Tienda Online con Flask + GraphQL
 Este módulo implementa el backend de una tienda online utilizando Flask y GraphQL. Permite consultar y modificar productos en memoria, cumpliendo con los requisitos académicos de la práctica.
 
-## 📁 Estructura del directorio
+## Estructura del directorio
+```
 backend/
 ├── app/
 │ ├── init.py
@@ -12,6 +13,7 @@ backend/
 ├── run.py # Punto de entrada del servidor Flask
 ├── requirements.txt # Dependencias necesarias
 └── README.md Usted esta aqui :)
+```
 
 ## Requisitos
 - Python 3.11 o superior
@@ -62,6 +64,6 @@ python test.py
 
 Si las pruebas son correctas mostrara el siguiente mensaje:
 ```bash
-✅ Consulta de productos OK
-✅ Mutación y lógica de disponible OK
+Consulta de productos OK
+Mutación y lógica de disponible OK
 ```
