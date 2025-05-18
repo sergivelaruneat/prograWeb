@@ -1,0 +1,7 @@
+Flask==3.1.1
+graphene==3.4.3
+flask-cors==4.0.0
+flask-graphql @ git+https://github.com/graphql-python/flask-graphql.git@master
+
+# Requisitos para las pruebas
+requests==2.31.0
