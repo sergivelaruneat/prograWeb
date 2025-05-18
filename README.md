@@ -1,4 +1,4 @@
-# Práctica 1 – Frontend (Vue + Vite)
+# Práctica 1 – Frontend
 Esta rama contiene la entrega correspondiente a la práctica 1 del proyecto.
 Se ha desarrollado únicamente el frontend de una tienda online utilizando Vue + Vite.
 
