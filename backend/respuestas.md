@@ -14,10 +14,6 @@ En proyectos donde se divide front y back es importante centrar la logica en el 
 Si el front controlara ese campo los datos no serian coherentes si se consultase la API u otra interfaz
 
 4) ¿Cómo garantizas que la lógica de actualización de stock y disponibilidad sea coherente?
-
-### ¿Cómo garantizas que la lógica de actualización de stock y disponibilidad sea coherente?
-
 He implementado una función dentro de la mutación que se encarga de modificar el stock y actualizar automáticamente el campo "disponible". Esta lógica está incluida dentro del método "mutate", por lo que se aplica siempre que se hace una mutación desde el frontend o desde la interfaz de la APi.
-
 Asi, no hay manera de modificar el stock sin que también se revise si el producto sigue estando disponible o no, garantizando que los datos se mantengan consistentes sin depender del cliente, y que la disponibilidad de cada producto esté con su stock real.
 
